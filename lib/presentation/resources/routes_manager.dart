@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:tutt_app/presentation/resources/strings_manager.dart';
-import '../OnBoarding/onBoarding_view.dart';
+import '../OnBoarding/view/onBoarding_view.dart';
 import '../forget_password/forget_password.dart';
 import '../login/login_view.dart';
 import '../main/main_view.dart';

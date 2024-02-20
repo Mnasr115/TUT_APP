@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import '../login/login_view.dart';
-import '../resources/assets_manager.dart';
-import '../resources/color_manager.dart';
-import '../resources/constant_manager.dart';
-import '../resources/strings_manager.dart';
-import '../resources/values_manager.dart';
+import '../../login/login_view.dart';
+import '../../resources/assets_manager.dart';
+import '../../resources/color_manager.dart';
+import '../../resources/constant_manager.dart';
+import '../../resources/strings_manager.dart';
+import '../../resources/values_manager.dart';
 
 class OnBoardingView extends StatefulWidget {
   const OnBoardingView({super.key});
@@ -167,9 +167,6 @@ class OnBoardingPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          const SizedBox(
-            height: AppSize.s40,
-          ),
           Text(
             _sliderObject.title,
             textAlign: TextAlign.center,
